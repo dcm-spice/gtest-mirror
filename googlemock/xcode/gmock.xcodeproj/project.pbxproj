@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		212527171CB3AE25001EDA28 /* gmock-all.cc in Sources */ = {isa = PBXBuildFile; fileRef = 212526F61CB3AE25001EDA28 /* gmock-all.cc */; };
+		212527181CB3AE25001EDA28 /* gmock-cardinalities.cc in Sources */ = {isa = PBXBuildFile; fileRef = 212526F71CB3AE25001EDA28 /* gmock-cardinalities.cc */; };
+		212527191CB3AE25001EDA28 /* gmock-internal-utils.cc in Sources */ = {isa = PBXBuildFile; fileRef = 212526F81CB3AE25001EDA28 /* gmock-internal-utils.cc */; };
+		2125271A1CB3AE25001EDA28 /* gmock-matchers.cc in Sources */ = {isa = PBXBuildFile; fileRef = 212526F91CB3AE25001EDA28 /* gmock-matchers.cc */; };
+		2125271B1CB3AE25001EDA28 /* gmock-spec-builders.cc in Sources */ = {isa = PBXBuildFile; fileRef = 212526FA1CB3AE25001EDA28 /* gmock-spec-builders.cc */; };
+		2125271C1CB3AE25001EDA28 /* gmock.cc in Sources */ = {isa = PBXBuildFile; fileRef = 212526FB1CB3AE25001EDA28 /* gmock.cc */; };
+		2125271D1CB3AE25001EDA28 /* gmock_main.cc in Sources */ = {isa = PBXBuildFile; fileRef = 212526FC1CB3AE25001EDA28 /* gmock_main.cc */; };
+		2125271E1CB3AE25001EDA28 /* gmock-actions_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 212526FE1CB3AE25001EDA28 /* gmock-actions_test.cc */; };
+		2125271F1CB3AE25001EDA28 /* gmock-cardinalities_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 212526FF1CB3AE25001EDA28 /* gmock-cardinalities_test.cc */; };
+		212527201CB3AE25001EDA28 /* gmock-generated-actions_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 212527001CB3AE25001EDA28 /* gmock-generated-actions_test.cc */; };
+		212527211CB3AE25001EDA28 /* gmock-generated-function-mockers_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 212527011CB3AE25001EDA28 /* gmock-generated-function-mockers_test.cc */; };
+		212527221CB3AE25001EDA28 /* gmock-generated-internal-utils_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 212527021CB3AE25001EDA28 /* gmock-generated-internal-utils_test.cc */; };
+		212527231CB3AE25001EDA28 /* gmock-generated-matchers_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 212527031CB3AE25001EDA28 /* gmock-generated-matchers_test.cc */; };
+		212527241CB3AE25001EDA28 /* gmock-internal-utils_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 212527041CB3AE25001EDA28 /* gmock-internal-utils_test.cc */; };
+		212527251CB3AE25001EDA28 /* gmock-matchers_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 212527051CB3AE25001EDA28 /* gmock-matchers_test.cc */; };
+		212527261CB3AE25001EDA28 /* gmock-more-actions_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 212527061CB3AE25001EDA28 /* gmock-more-actions_test.cc */; };
+		212527271CB3AE25001EDA28 /* gmock-nice-strict_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 212527071CB3AE25001EDA28 /* gmock-nice-strict_test.cc */; };
+		212527281CB3AE25001EDA28 /* gmock-port_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 212527081CB3AE25001EDA28 /* gmock-port_test.cc */; };
+		212527291CB3AE25001EDA28 /* gmock-spec-builders_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 212527091CB3AE25001EDA28 /* gmock-spec-builders_test.cc */; };
+		2125272A1CB3AE25001EDA28 /* gmock_all_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2125270A1CB3AE25001EDA28 /* gmock_all_test.cc */; };
+		2125272B1CB3AE25001EDA28 /* gmock_ex_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2125270B1CB3AE25001EDA28 /* gmock_ex_test.cc */; };
+		2125272C1CB3AE25001EDA28 /* gmock_leak_test_.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2125270D1CB3AE25001EDA28 /* gmock_leak_test_.cc */; };
+		2125272D1CB3AE25001EDA28 /* gmock_link2_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2125270E1CB3AE25001EDA28 /* gmock_link2_test.cc */; };
+		2125272E1CB3AE25001EDA28 /* gmock_link_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2125270F1CB3AE25001EDA28 /* gmock_link_test.cc */; };
+		2125272F1CB3AE25001EDA28 /* gmock_output_test_.cc in Sources */ = {isa = PBXBuildFile; fileRef = 212527121CB3AE25001EDA28 /* gmock_output_test_.cc */; };
+		212527301CB3AE25001EDA28 /* gmock_stress_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 212527141CB3AE25001EDA28 /* gmock_stress_test.cc */; };
+		212527311CB3AE25001EDA28 /* gmock_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 212527151CB3AE25001EDA28 /* gmock_test.cc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		212526CB1CB3AD70001EDA28 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		212526CD1CB3AD70001EDA28 /* libgmock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libgmock.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		212526DC1CB3AE25001EDA28 /* gmock-actions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gmock-actions.h"; sourceTree = "<group>"; };
+		212526DD1CB3AE25001EDA28 /* gmock-cardinalities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gmock-cardinalities.h"; sourceTree = "<group>"; };
+		212526DE1CB3AE25001EDA28 /* gmock-generated-actions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gmock-generated-actions.h"; sourceTree = "<group>"; };
+		212526E01CB3AE25001EDA28 /* gmock-generated-function-mockers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gmock-generated-function-mockers.h"; sourceTree = "<group>"; };
+		212526E21CB3AE25001EDA28 /* gmock-generated-matchers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gmock-generated-matchers.h"; sourceTree = "<group>"; };
+		212526E41CB3AE25001EDA28 /* gmock-generated-nice-strict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gmock-generated-nice-strict.h"; sourceTree = "<group>"; };
+		212526E61CB3AE25001EDA28 /* gmock-matchers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gmock-matchers.h"; sourceTree = "<group>"; };
+		212526E71CB3AE25001EDA28 /* gmock-more-actions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gmock-more-actions.h"; sourceTree = "<group>"; };
+		212526E81CB3AE25001EDA28 /* gmock-more-matchers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gmock-more-matchers.h"; sourceTree = "<group>"; };
+		212526E91CB3AE25001EDA28 /* gmock-spec-builders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gmock-spec-builders.h"; sourceTree = "<group>"; };
+		212526EA1CB3AE25001EDA28 /* gmock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gmock.h; sourceTree = "<group>"; };
+		212526ED1CB3AE25001EDA28 /* gmock-generated-actions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gmock-generated-actions.h"; sourceTree = "<group>"; };
+		212526EE1CB3AE25001EDA28 /* gmock-generated-actions.h.pump */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "gmock-generated-actions.h.pump"; sourceTree = "<group>"; };
+		212526EF1CB3AE25001EDA28 /* gmock-matchers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gmock-matchers.h"; sourceTree = "<group>"; };
+		212526F01CB3AE25001EDA28 /* gmock-port.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gmock-port.h"; sourceTree = "<group>"; };
+		212526F11CB3AE25001EDA28 /* gmock-generated-internal-utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gmock-generated-internal-utils.h"; sourceTree = "<group>"; };
+		212526F31CB3AE25001EDA28 /* gmock-internal-utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gmock-internal-utils.h"; sourceTree = "<group>"; };
+		212526F41CB3AE25001EDA28 /* gmock-port.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gmock-port.h"; sourceTree = "<group>"; };
+		212526F61CB3AE25001EDA28 /* gmock-all.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gmock-all.cc"; sourceTree = "<group>"; };
+		212526F71CB3AE25001EDA28 /* gmock-cardinalities.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gmock-cardinalities.cc"; sourceTree = "<group>"; };
+		212526F81CB3AE25001EDA28 /* gmock-internal-utils.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gmock-internal-utils.cc"; sourceTree = "<group>"; };
+		212526F91CB3AE25001EDA28 /* gmock-matchers.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gmock-matchers.cc"; sourceTree = "<group>"; };
+		212526FA1CB3AE25001EDA28 /* gmock-spec-builders.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gmock-spec-builders.cc"; sourceTree = "<group>"; };
+		212526FB1CB3AE25001EDA28 /* gmock.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gmock.cc; sourceTree = "<group>"; };
+		212526FC1CB3AE25001EDA28 /* gmock_main.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gmock_main.cc; sourceTree = "<group>"; };
+		212526FE1CB3AE25001EDA28 /* gmock-actions_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gmock-actions_test.cc"; sourceTree = "<group>"; };
+		212526FF1CB3AE25001EDA28 /* gmock-cardinalities_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gmock-cardinalities_test.cc"; sourceTree = "<group>"; };
+		212527001CB3AE25001EDA28 /* gmock-generated-actions_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gmock-generated-actions_test.cc"; sourceTree = "<group>"; };
+		212527011CB3AE25001EDA28 /* gmock-generated-function-mockers_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gmock-generated-function-mockers_test.cc"; sourceTree = "<group>"; };
+		212527021CB3AE25001EDA28 /* gmock-generated-internal-utils_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gmock-generated-internal-utils_test.cc"; sourceTree = "<group>"; };
+		212527031CB3AE25001EDA28 /* gmock-generated-matchers_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gmock-generated-matchers_test.cc"; sourceTree = "<group>"; };
+		212527041CB3AE25001EDA28 /* gmock-internal-utils_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gmock-internal-utils_test.cc"; sourceTree = "<group>"; };
+		212527051CB3AE25001EDA28 /* gmock-matchers_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gmock-matchers_test.cc"; sourceTree = "<group>"; };
+		212527061CB3AE25001EDA28 /* gmock-more-actions_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gmock-more-actions_test.cc"; sourceTree = "<group>"; };
+		212527071CB3AE25001EDA28 /* gmock-nice-strict_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gmock-nice-strict_test.cc"; sourceTree = "<group>"; };
+		212527081CB3AE25001EDA28 /* gmock-port_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gmock-port_test.cc"; sourceTree = "<group>"; };
+		212527091CB3AE25001EDA28 /* gmock-spec-builders_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gmock-spec-builders_test.cc"; sourceTree = "<group>"; };
+		2125270A1CB3AE25001EDA28 /* gmock_all_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gmock_all_test.cc; sourceTree = "<group>"; };
+		2125270B1CB3AE25001EDA28 /* gmock_ex_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gmock_ex_test.cc; sourceTree = "<group>"; };
+		2125270D1CB3AE25001EDA28 /* gmock_leak_test_.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gmock_leak_test_.cc; sourceTree = "<group>"; };
+		2125270E1CB3AE25001EDA28 /* gmock_link2_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gmock_link2_test.cc; sourceTree = "<group>"; };
+		2125270F1CB3AE25001EDA28 /* gmock_link_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gmock_link_test.cc; sourceTree = "<group>"; };
+		212527101CB3AE25001EDA28 /* gmock_link_test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gmock_link_test.h; sourceTree = "<group>"; };
+		212527121CB3AE25001EDA28 /* gmock_output_test_.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gmock_output_test_.cc; sourceTree = "<group>"; };
+		212527141CB3AE25001EDA28 /* gmock_stress_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gmock_stress_test.cc; sourceTree = "<group>"; };
+		212527151CB3AE25001EDA28 /* gmock_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gmock_test.cc; sourceTree = "<group>"; };
+		212527321CB3AE3B001EDA28 /* CHANGES */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CHANGES; path = ../CHANGES; sourceTree = "<group>"; };
+		212527331CB3AE3B001EDA28 /* CONTRIBUTORS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CONTRIBUTORS; path = ../CONTRIBUTORS; sourceTree = "<group>"; };
+		212527341CB3AE3B001EDA28 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		212526CA1CB3AD70001EDA28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		212526C41CB3AD70001EDA28 = {
+			isa = PBXGroup;
+			children = (
+				212526D91CB3ADC9001EDA28 /* Source */,
+				212526CE1CB3AD70001EDA28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		212526CE1CB3AD70001EDA28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				212526CD1CB3AD70001EDA28 /* libgmock.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		212526D91CB3ADC9001EDA28 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				212527321CB3AE3B001EDA28 /* CHANGES */,
+				212527331CB3AE3B001EDA28 /* CONTRIBUTORS */,
+				212527341CB3AE3B001EDA28 /* LICENSE */,
+				212526DA1CB3AE25001EDA28 /* include */,
+				212526F51CB3AE25001EDA28 /* src */,
+				212526FD1CB3AE25001EDA28 /* test */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		212526DA1CB3AE25001EDA28 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				212526DB1CB3AE25001EDA28 /* gmock */,
+			);
+			name = include;
+			path = ../include;
+			sourceTree = "<group>";
+		};
+		212526DB1CB3AE25001EDA28 /* gmock */ = {
+			isa = PBXGroup;
+			children = (
+				212526DC1CB3AE25001EDA28 /* gmock-actions.h */,
+				212526DD1CB3AE25001EDA28 /* gmock-cardinalities.h */,
+				212526DE1CB3AE25001EDA28 /* gmock-generated-actions.h */,
+				212526E01CB3AE25001EDA28 /* gmock-generated-function-mockers.h */,
+				212526E21CB3AE25001EDA28 /* gmock-generated-matchers.h */,
+				212526E41CB3AE25001EDA28 /* gmock-generated-nice-strict.h */,
+				212526E61CB3AE25001EDA28 /* gmock-matchers.h */,
+				212526E71CB3AE25001EDA28 /* gmock-more-actions.h */,
+				212526E81CB3AE25001EDA28 /* gmock-more-matchers.h */,
+				212526E91CB3AE25001EDA28 /* gmock-spec-builders.h */,
+				212526EA1CB3AE25001EDA28 /* gmock.h */,
+				212526EB1CB3AE25001EDA28 /* internal */,
+			);
+			path = gmock;
+			sourceTree = "<group>";
+		};
+		212526EB1CB3AE25001EDA28 /* internal */ = {
+			isa = PBXGroup;
+			children = (
+				212526EC1CB3AE25001EDA28 /* custom */,
+				212526F11CB3AE25001EDA28 /* gmock-generated-internal-utils.h */,
+				212526F31CB3AE25001EDA28 /* gmock-internal-utils.h */,
+				212526F41CB3AE25001EDA28 /* gmock-port.h */,
+			);
+			path = internal;
+			sourceTree = "<group>";
+		};
+		212526EC1CB3AE25001EDA28 /* custom */ = {
+			isa = PBXGroup;
+			children = (
+				212526ED1CB3AE25001EDA28 /* gmock-generated-actions.h */,
+				212526EE1CB3AE25001EDA28 /* gmock-generated-actions.h.pump */,
+				212526EF1CB3AE25001EDA28 /* gmock-matchers.h */,
+				212526F01CB3AE25001EDA28 /* gmock-port.h */,
+			);
+			path = custom;
+			sourceTree = "<group>";
+		};
+		212526F51CB3AE25001EDA28 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				212526F61CB3AE25001EDA28 /* gmock-all.cc */,
+				212526F71CB3AE25001EDA28 /* gmock-cardinalities.cc */,
+				212526F81CB3AE25001EDA28 /* gmock-internal-utils.cc */,
+				212526F91CB3AE25001EDA28 /* gmock-matchers.cc */,
+				212526FA1CB3AE25001EDA28 /* gmock-spec-builders.cc */,
+				212526FB1CB3AE25001EDA28 /* gmock.cc */,
+				212526FC1CB3AE25001EDA28 /* gmock_main.cc */,
+			);
+			name = src;
+			path = ../src;
+			sourceTree = "<group>";
+		};
+		212526FD1CB3AE25001EDA28 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				212526FE1CB3AE25001EDA28 /* gmock-actions_test.cc */,
+				212526FF1CB3AE25001EDA28 /* gmock-cardinalities_test.cc */,
+				212527001CB3AE25001EDA28 /* gmock-generated-actions_test.cc */,
+				212527011CB3AE25001EDA28 /* gmock-generated-function-mockers_test.cc */,
+				212527021CB3AE25001EDA28 /* gmock-generated-internal-utils_test.cc */,
+				212527031CB3AE25001EDA28 /* gmock-generated-matchers_test.cc */,
+				212527041CB3AE25001EDA28 /* gmock-internal-utils_test.cc */,
+				212527051CB3AE25001EDA28 /* gmock-matchers_test.cc */,
+				212527061CB3AE25001EDA28 /* gmock-more-actions_test.cc */,
+				212527071CB3AE25001EDA28 /* gmock-nice-strict_test.cc */,
+				212527081CB3AE25001EDA28 /* gmock-port_test.cc */,
+				212527091CB3AE25001EDA28 /* gmock-spec-builders_test.cc */,
+				2125270A1CB3AE25001EDA28 /* gmock_all_test.cc */,
+				2125270B1CB3AE25001EDA28 /* gmock_ex_test.cc */,
+				2125270D1CB3AE25001EDA28 /* gmock_leak_test_.cc */,
+				2125270E1CB3AE25001EDA28 /* gmock_link2_test.cc */,
+				2125270F1CB3AE25001EDA28 /* gmock_link_test.cc */,
+				212527101CB3AE25001EDA28 /* gmock_link_test.h */,
+				212527121CB3AE25001EDA28 /* gmock_output_test_.cc */,
+				212527141CB3AE25001EDA28 /* gmock_stress_test.cc */,
+				212527151CB3AE25001EDA28 /* gmock_test.cc */,
+			);
+			name = test;
+			path = ../test;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		212526CC1CB3AD70001EDA28 /* gmock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 212526D61CB3AD70001EDA28 /* Build configuration list for PBXNativeTarget "gmock" */;
+			buildPhases = (
+				212526C91CB3AD70001EDA28 /* Sources */,
+				212526CA1CB3AD70001EDA28 /* Frameworks */,
+				212526CB1CB3AD70001EDA28 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gmock;
+			productName = gmock;
+			productReference = 212526CD1CB3AD70001EDA28 /* libgmock.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		212526C51CB3AD70001EDA28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = google;
+				TargetAttributes = {
+					212526CC1CB3AD70001EDA28 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 212526C81CB3AD70001EDA28 /* Build configuration list for PBXProject "gmock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 212526C41CB3AD70001EDA28;
+			productRefGroup = 212526CE1CB3AD70001EDA28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				212526CC1CB3AD70001EDA28 /* gmock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		212526C91CB3AD70001EDA28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212527311CB3AE25001EDA28 /* gmock_test.cc in Sources */,
+				212527181CB3AE25001EDA28 /* gmock-cardinalities.cc in Sources */,
+				212527171CB3AE25001EDA28 /* gmock-all.cc in Sources */,
+				212527281CB3AE25001EDA28 /* gmock-port_test.cc in Sources */,
+				2125271F1CB3AE25001EDA28 /* gmock-cardinalities_test.cc in Sources */,
+				2125271A1CB3AE25001EDA28 /* gmock-matchers.cc in Sources */,
+				212527251CB3AE25001EDA28 /* gmock-matchers_test.cc in Sources */,
+				212527191CB3AE25001EDA28 /* gmock-internal-utils.cc in Sources */,
+				2125271B1CB3AE25001EDA28 /* gmock-spec-builders.cc in Sources */,
+				212527241CB3AE25001EDA28 /* gmock-internal-utils_test.cc in Sources */,
+				2125272A1CB3AE25001EDA28 /* gmock_all_test.cc in Sources */,
+				212527221CB3AE25001EDA28 /* gmock-generated-internal-utils_test.cc in Sources */,
+				2125272F1CB3AE25001EDA28 /* gmock_output_test_.cc in Sources */,
+				2125272E1CB3AE25001EDA28 /* gmock_link_test.cc in Sources */,
+				212527211CB3AE25001EDA28 /* gmock-generated-function-mockers_test.cc in Sources */,
+				2125272D1CB3AE25001EDA28 /* gmock_link2_test.cc in Sources */,
+				212527301CB3AE25001EDA28 /* gmock_stress_test.cc in Sources */,
+				2125272C1CB3AE25001EDA28 /* gmock_leak_test_.cc in Sources */,
+				212527271CB3AE25001EDA28 /* gmock-nice-strict_test.cc in Sources */,
+				2125271C1CB3AE25001EDA28 /* gmock.cc in Sources */,
+				212527231CB3AE25001EDA28 /* gmock-generated-matchers_test.cc in Sources */,
+				212527261CB3AE25001EDA28 /* gmock-more-actions_test.cc in Sources */,
+				212527291CB3AE25001EDA28 /* gmock-spec-builders_test.cc in Sources */,
+				212527201CB3AE25001EDA28 /* gmock-generated-actions_test.cc in Sources */,
+				2125271D1CB3AE25001EDA28 /* gmock_main.cc in Sources */,
+				2125271E1CB3AE25001EDA28 /* gmock-actions_test.cc in Sources */,
+				2125272B1CB3AE25001EDA28 /* gmock_ex_test.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		212526D41CB3AD70001EDA28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		212526D51CB3AD70001EDA28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		212526D71CB3AD70001EDA28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					../,
+					../include,
+					../../googletest,
+					../../googletest/include,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		212526D81CB3AD70001EDA28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					../,
+					../include,
+					../../googletest,
+					../../googletest/include,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		212526C81CB3AD70001EDA28 /* Build configuration list for PBXProject "gmock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212526D41CB3AD70001EDA28 /* Debug */,
+				212526D51CB3AD70001EDA28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		212526D61CB3AD70001EDA28 /* Build configuration list for PBXNativeTarget "gmock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212526D71CB3AD70001EDA28 /* Debug */,
+				212526D81CB3AD70001EDA28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 212526C51CB3AD70001EDA28 /* Project object */;
+}
